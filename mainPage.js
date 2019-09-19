@@ -1,6 +1,5 @@
 const {I} = inject();
 export {expect} from 'chai';
-let array = [];
 
 module.exports = {
     globalElements = {
