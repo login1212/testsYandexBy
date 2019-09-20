@@ -1,9 +1,6 @@
-include: {
-    mainPage: './mainPage.js'
-    tests: './test.js'
-}
 export const config = {
 timeout: 10000,
+tests: './test.js',
 
 helpers: {
     Puppeteer: {
@@ -11,4 +8,7 @@ helpers: {
     restart: false,
     },
 },
+include: {
+    mainPage: './mainPage.js'
+}
 }
