@@ -1,5 +1,4 @@
 const {I} = inject();
-export {expect} from 'chai';
 
 module.exports = {
     globalElements = {
