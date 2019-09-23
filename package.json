@@ -1,0 +1,26 @@
+{
+  "name": "testsYandexBy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainPage.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "codeceptjs": "^2.3.1",
+    "puppeteer": "^1.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/login1212/testsYandexBy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/login1212/testsYandexBy/issues"
+  },
+  "homepage": "https://github.com/login1212/testsYandexBy#readme"
+}

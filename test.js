@@ -1,5 +1,5 @@
-const {I, mainPage}= inject();
-export {expect} from 'chai';
+const {mainPage}= inject();
+//export {expect} from 'chai';
 let expect = chai.expect;
 
 Scenario('Тест', async (I) => {

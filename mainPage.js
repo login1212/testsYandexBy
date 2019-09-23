@@ -6,13 +6,13 @@ module.exports = {
         buttonTransitionYandexBy: '.button_theme_normal',
         inputLocationCity: '.input__control',
         buttonYet: '.home-link home-link_blue_yes home-tabs__link home-tabs__more-switcher dropdown2__switcher i-bem _popup2-destructor _popup2-destructor_js_inited',
-        MenuItemYet: '.home-tabs__more-item',
+        MenuItemYet: 'a[class="home-link home-tabs_more-link home-link_black_yes"]',
     },
     setLocationPage(LocationCity) 
     {
         I.click(this.globalElements.buttonLocation);
-        I.fileField(this.globalElements.inputLocationCity, LocationCity);
-        I.press("ENTER");
+        I.fillField(this.globalElements.inputLocationCity, LocationCity);
+        I.pressKey("ENTER");
         I.click(this.globalElements.buttonTransitionYandexBy);        
     },
     async checkYetYandexBy() {
