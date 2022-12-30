@@ -5,7 +5,7 @@
   "main": "mainPage.js",
   "dependencies": {
     "chai": "^4.2.0",
-    "codeceptjs": "^2.3.1",
+    "codeceptjs": "^3.0.0",
     "puppeteer": "^1.20.0"
   },
   "devDependencies": {},
